@@ -129,3 +129,22 @@ var newData = users.find((user) => {
 })
 console.log(newData)
 */
+
+// Every and Some Methods
+/*
+var users = [
+  {name: "Kevin", age: 27},
+  {name: "James", age: 10},
+  {name: "polo", age: 29},
+]
+
+var newData = users.every((user) => {
+  return user.age >= 18
+})
+if(newData) {
+  console.log("user can drink all night")
+} else {
+  console.log("user under 21 cant drink")
+}
+console.log(newData)
+*/
