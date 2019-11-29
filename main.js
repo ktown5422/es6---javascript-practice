@@ -148,3 +148,27 @@ if(newData) {
 }
 console.log(newData)
 */
+
+
+// Declare a variable with 5 different music artist
+
+let musicArtist = ["Slabz", "Hesobumpin", "25toLife", "Cardogotwingz", "Metro Boomin"];
+
+// print the variable
+console.log(musicArtist)
+
+//Print the 4th artist on the Array with a console.log
+console.log(musicArtist[3])
+
+// Add another artist to Array for a total of 6 Artist then Print the Array
+musicArtist.push("Young AJ")
+console.log(musicArtist)
+
+// Remove the 4th Artist on the list and then print the list
+musicArtist.splice(3,1);
+console.log(musicArtist)
+
+// print in reverse
+
+musicArtist.reverse()
+console.log(musicArtist)
